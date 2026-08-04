@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+*{
+    font-family: "Ubuntu", sans-serif;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+   width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-delay: 2ms;
+}
